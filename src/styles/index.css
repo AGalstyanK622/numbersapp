@@ -1,0 +1,194 @@
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #a3c2c2;
+  background-image: url('../images/background3.jpeg');
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #090c14;
+  padding: 20px;
+}
+
+.center {
+  text-align: center;
+  color:#cce4f4;
+}
+
+.navlink {
+  text-decoration: none;
+  font-size:20px;
+  color:#cce4f4;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: white;
+}
+
+.is-active {
+  color: #99ffff
+}
+
+.link {
+  color: #5c5edc;
+}
+
+.form-control {
+  width:200px;
+}
+/* PROJECT */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  padding: 20px;
+  color: black;
+}
+
+.App-title {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+  color: #cce4f4;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.logo-outer {
+  text-align: center;
+  padding-top:-5px;
+  display: block
+}
+.logo-outer .logo{
+  text-shadow: #000000 0px 1px 0px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+  color: #cce4f4;
+}
+form {
+  text-align: center;
+}
+
+.navo {
+  display: flex;
+  justify-content: space-between;
+  font-family: Palatino, Georgia, serif;
+  font-size: 20px;
+}
+
+.alert {
+  width:50%;
+  margin: auto;
+  margin-top:10%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #cce4f4;
+  /*margin-top:50px;
+  margin-left:500px;*/
+}
+
+.paragraph {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-top:2%;
+  font-size:25px;
+  color:  black;
+}
+
+.data {
+  min-height:700px;
+}
+/*FOOTER START///////////////////*/
+.footer {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 50px 0 20px 0;
+    background-color: #090c14;
+    color: #a3c2c2;
+}
+.footer .title{
+	text-align: left;
+	color:#a3c2c2;
+	font-size:25px;
+}
+.footer .social-icon{
+	padding:0px;
+	margin:0px;
+}
+.footer .social-icon a{
+	display:inline-block;
+	color: #a3c2c2;
+	font-size:25px;
+	padding:5px;
+}
+.footer .acount-icon a{
+	display:block;
+	color: #a3c2c2;
+	font-size:18px;
+	padding:5px;
+	text-decoration:none;
+}
+.footer .acount-icon .fa{
+	margin-right:25px;
+}
+.footer .category a {
+    text-decoration: none;
+    color: #a3c2c2;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+}
+.footer .payment{
+	margin:0px;
+	padding:0px;
+	list-style-type:none
+}
+.footer .payment li{
+	list-style-type:none
+}
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+.container {
+  width: 100%;
+}
+
+.cl {
+  color: #a3c2c2;
+  float:right;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size:20px;
+}
+
+.cl1 {
+  position: absolute;
+  font-size:20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #a3c2c2;
+  margin-left:2%;
+}
